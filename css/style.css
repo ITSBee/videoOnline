@@ -761,9 +761,17 @@ ul.team-icons.new-inf li {
     box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .3);
 }
 
+.hoster {
+    min-height: 240px;
+    background: url(../images/bg2@2x.png) center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
 .inner-sec-galaxy img {
     width: 140px;
-    height: 140px;
+    /*height: 140px;*/
+    margin-bottom: 10px;
 }
 
 /*--//team--*/
@@ -1561,7 +1569,7 @@ input.email {
 /*--about--*/
 
 .banner-content.inner {
-    background: #49c494 url(../images/banner.png)no-repeat -300px -160px;
+    background: #49c494 url(../images/banner2.png)no-repeat -360px -80px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2123,6 +2131,16 @@ a.move-top span {
 }
 
 @media(max-width:800px) {
+    .banner-content.inner {
+        background: #49c494 url(../images/banner2.png)no-repeat -200px center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        position: relative;
+        min-height: 13em;
+    }
     .right-side-img-tem-inside {
         min-height: 50em;
     }
@@ -2186,7 +2204,8 @@ a.move-top span {
     }
 
     .banner-content.inner {
-        min-height: 22em;
+        background-image: none;
+        min-height: 6em;
     }
 }
 
@@ -2293,7 +2312,9 @@ a.move-top span {
 
 @media(max-width:440px) {
     .banner-content {
-        min-height: 115em;
+        min-height: 25em;
+        background-color: #49c494;
+        background-image: none;
     }
 }
 
