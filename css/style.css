@@ -768,6 +768,11 @@ ul.team-icons.new-inf li {
     background-size: cover;
 }
 
+.hoster .team-img img {
+    border-radius: 50%;
+    border: 5px solid #49c494;
+}
+
 .inner-sec-galaxy img {
     width: 140px;
     /*height: 140px;*/
@@ -796,8 +801,11 @@ ul.team-icons.new-inf li {
 }
 
 section.hand-crafted {
-    background: #1e272e;
+    background: #1e272e url(../images/banner-grid.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
+
 
 h4.progress-tittle {
     font-size: 0.9em;
@@ -854,6 +862,10 @@ section.hand-crafted p {
 /* //testimonials */
 
 /*--/--*/
+.ab-info-grids .item {
+    margin-bottom: 20px;
+}
+
 
 .ab-info-grids p {
     text-align: justify;
