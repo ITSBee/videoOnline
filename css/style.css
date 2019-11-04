@@ -856,7 +856,9 @@ p.sub-test span {
 }
 
 section.hand-crafted p {
-    color: #01442d;
+    padding: 10px 20px;
+    color: #fff;
+    background: rgba(0,0,0,.8);
 }
 
 /* //testimonials */
